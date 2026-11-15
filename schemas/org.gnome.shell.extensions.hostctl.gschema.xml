@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.hostctl" path="/org/gnome/shell/extensions/hostctl/">
+    <key name="section-max-items" type="i">
+      <range min="1" max="50"/>
+      <default>5</default>
+      <summary>Maximum items per section</summary>
+      <description>Maximum number of visible items before scrolling for each section in the panel menu.</description>
+    </key>
+    <key name="show-ssh" type="b">
+      <default>true</default>
+      <summary>Show SSH Hosts</summary>
+    </key>
+    <key name="show-vms" type="b">
+      <default>true</default>
+      <summary>Show Virtual Machines</summary>
+    </key>
+    <key name="show-containers" type="b">
+      <default>true</default>
+      <summary>Show Containers</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,77 @@
+.vm-header-item {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.vm-top-title {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.vm-header-title {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.vm-header-count {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.vm-scroll {
+    max-height: 200px;
+}
+
+.vm-row-item {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.vm-row {
+    spacing: 8px;
+    min-width: 280px;
+}
+
+.vm-dot {
+    font-size: 0.7em;
+}
+
+.vm-dot-running {
+    color: #2ec27e;
+}
+
+.vm-dot-paused {
+    color: #e5a50a;
+}
+
+.vm-dot-off {
+    color: #77767b;
+}
+
+.vm-name {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.vm-state {
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.vm-actions {
+    spacing: 4px;
+}
+
+.vm-action-btn {
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.vm-action-btn:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.vm-action-btn-danger:hover {
+    background-color: rgba(224, 27, 36, 0.35);
+}

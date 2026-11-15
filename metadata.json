@@ -1,0 +1,14 @@
+{
+  "name": "hostctl",
+  "description": "Minimalist QEMU/KVM virtual machine, container (Docker/Podman), and SSH host controller for the GNOME Shell panel",
+  "uuid": "hostctl@dmachard.dev",
+  "settings-schema": "org.gnome.shell.extensions.hostctl",
+  "shell-version": [
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "version": 1,
+  "url": "https://github.com/dmachard/gnome-shell-extension-hostctl"
+}
