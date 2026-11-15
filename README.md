@@ -2,7 +2,7 @@
 
 Minimalist QEMU/KVM virtual machine and container (Docker/Podman) controller for the GNOME Shell panel.
 
-<img src="hostctl-overview.png" alt="hostctl-overview" width="600"/>
+<img src="hostctl-overview.png" alt="hostctl-overview" />
 
 ## Features
 
