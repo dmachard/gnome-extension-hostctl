@@ -19,13 +19,10 @@ Minimalist QEMU/KVM virtual machine and container (Docker/Podman) controller for
 
 ## Installation
 
-1. Copy the extension files to your local GNOME Shell extensions directory:
+1. Run the install script:
 
    ```bash
-   mkdir -p ~/.local/share/gnome-shell/extensions/hostctl@dmachard.dev
-   cp -r *.js metadata.json stylesheet.css schemas icons \
-     ~/.local/share/gnome-shell/extensions/hostctl@dmachard.dev/
-   glib-compile-schemas ~/.local/share/gnome-shell/extensions/hostctl@dmachard.dev/schemas
+   ./install.sh
    ```
 
 2. Enable the extension (log out and back in first on Wayland if newly installed):
