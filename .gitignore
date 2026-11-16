@@ -1,2 +1,5 @@
 schemas/gschemas.compiled
-
+*.shell-extension.zip
+venv/
+.venv/
+.codegraph/
