@@ -49,8 +49,6 @@ Update the version in `metadata.json`
 Zip and upload at https://extensions.gnome.org/upload/
 
 ```bash
-cd ~/.local/share/gnome-shell/extensions/hostctl@dmachard.dev
-
 zip -r ~/hostctl@dmachard.dev.shell-extension.zip \
     extension.js \
     prefs.js \
