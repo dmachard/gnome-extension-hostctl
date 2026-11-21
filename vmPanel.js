@@ -30,6 +30,7 @@ export const VmPanel = GObject.registerClass(
     class VmPanel extends PanelMenu.Button {
         _init(extension) {
             super._init(0.5, _('hostctl'));
+            this.add_style_class_name('hostctl-panel-button');
 
             this._extension = extension;
             this._settings = extension.getSettings();

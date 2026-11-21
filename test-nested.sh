@@ -26,6 +26,10 @@ glib-compile-schemas "$EXT_DIR/schemas/"
 echo "[+] Launching isolated nested GNOME Shell..."
 echo "[i] Close the window to exit and clean up."
 
+# Clear snap-injected GLib/GTK/GDK overrides (e.g. when launched from VS Code snap)
+unset GSETTINGS_SCHEMA_DIR GIO_MODULE_DIR GTK_PATH GTK_EXE_PREFIX \
+      GTK_IM_MODULE_FILE GDK_PIXBUF_MODULE_FILE GDK_PIXBUF_MODULEDIR LOCPATH
+
 # Run nested GNOME Shell with isolated HOME/XDG and extension pre-enabled
 HOME="$TMP_DIR" \
 GNOME_SHELL_SESSION_MODE=user \

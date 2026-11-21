@@ -1,3 +1,13 @@
+#panel .panel-button.hostctl-panel-button {
+    -natural-hpadding: 8px;
+    -minimum-hpadding: 4px;
+}
+
+#panel .panel-button.hostctl-panel-button .system-status-icon {
+    padding: 0 2px;
+    margin: 0;
+}
+
 .vm-header-item {
     padding-top: 4px;
     padding-bottom: 4px;
